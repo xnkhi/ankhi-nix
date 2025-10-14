@@ -40,7 +40,6 @@
     neovim
     btop
     wget
-    git
     curl
     wget
     tree

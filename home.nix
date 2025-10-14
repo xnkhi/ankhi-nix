@@ -12,7 +12,10 @@
 			rebuild-dots = "sudo nixos-rebuild switch --flake ~/.system-dotfiles#notebook";
 		};
 	};
+	
 	programs.git.enable = true;
+	programs.git.userName = "xnkhi";
+	programs.git.userEmail = "git.chokehold749@passinbox.com";
 
 	programs.alacritty.enable = true;
 	programs.rofi.enable = true;
@@ -26,6 +29,7 @@
 
 	home.packages = with pkgs; [
 		niri
+		xfce.thunar
 		swaybg
 		alacritty
 	];
