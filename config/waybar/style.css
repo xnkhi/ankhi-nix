@@ -1,0 +1,192 @@
+* {
+	border: none;
+	border-radius: 0;
+    font-family: "Ubuntu" ;
+	font-size: 15px;
+	min-height: 10px;
+}
+window#waybar {
+	background: #11111B;
+}
+#cava{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s; 
+}
+#cava:hover{
+    color: #11111B;
+    background: #f5c2e7;
+}
+#battery{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s; 
+}
+#battery:hover{
+    color: #11111B;
+    background: #f5c2e7;
+}
+#backlight:hover{
+    color: #11111B;
+    background: #f5c2e7;
+}
+#backlight{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s; 
+}
+#pulseaudio {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    padding: 8px;
+    transition: 0.3s;
+}
+#pulseaudio:hover{ 
+    background: #f5c2e7;
+    color: #11111B;
+}
+#pulseaudio.muted {
+    color: #f38ba8;
+    background: #11111B; 
+    transition: 0.3s;
+}
+#pulseaudio.muted:hover {
+    background: #f38ba8;
+    color: #11111B; 
+
+}
+#clock {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#clock:hover {
+    color: #11111B; 
+    background: #f5c2e7;
+}
+#disk{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#disk:hover{
+    color: #11111B; 
+    background: #f5c2e7;
+}
+#memory {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#memory:hover { 
+    color: #11111B; 
+    background: #f5c2e7;
+
+}
+#cpu {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#cpu:hover {
+    color: #11111B; 
+    background: #f5c2e7;
+
+}
+#workspaces {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-right: 4px;
+    margin-bottom: 2px;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#workspaces button {
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#workspaces button:hover {
+    background: transparent;
+    color: transparent;
+}
+#tray{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
+#tray menu{
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    transition: none;
+    background: #11111B; 
+    color: #f5c2e7;
+    transition: 0.3s;
+}
