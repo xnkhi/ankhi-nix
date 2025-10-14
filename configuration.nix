@@ -85,6 +85,7 @@
 
     # other
     fastfetch
+    gnome-keyring
     openrgb-with-all-plugins
     xwayland-satellite
     wineWowPackages.stable
