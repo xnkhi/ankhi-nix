@@ -43,6 +43,7 @@
     curl
     wget
     tree
+    p7zip
     nmap
 
     # languages
@@ -55,6 +56,7 @@
 
     # internet
     ungoogled-chromium
+    firefox
     tor
     tor-browser
     openvpn
