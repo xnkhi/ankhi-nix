@@ -12,7 +12,7 @@
 			rebuild-dots = "sudo nixos-rebuild switch --flake ~/.system-dotfiles#notebook";
 		};
 	};
-	
+
 	programs.git.enable = true;
 	programs.git.userName = "xnkhi";
 	programs.git.userEmail = "git.chokehold749@passinbox.com";
@@ -41,6 +41,7 @@
 	home.file.".config/rofi".source=./config/rofi;
 	home.file.".config/waybar".source=./config/waybar;
 	home.file.".config/wallpaper.png".source=./config/wallpaper.png;
+	home.file.".chromium-extensions".source=./files/chromium-extensions;
 }
 
 
