@@ -30,18 +30,26 @@
       extraGroups = [ "wheel" ];
   };
 
+  users.users.ankhi.shell = pkgs.zsh;
+  programs.zsh.enable = true;
 
 
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
 
+    # desktop
+    niri
+    swaybg
+    xfce.thunar
+    xwayland-satellite
+    cava
+
     # basic utilities
     neovim
     btop
     wget
     curl
-    wget
     tree
     p7zip
     nmap
@@ -89,17 +97,28 @@
     fastfetch
     gnome-keyring
     openrgb-with-all-plugins
-    xwayland-satellite
+    pavucontrol
     wineWowPackages.stable
     winetricks
 
   ];
+
+  programs.alacritty.enable    = true;
+	programs.rofi.enable         = true;
+	programs.rofi.package        = pkgs.rofi-wayland;
+	programs.swaylock.enable     = true;
+	programs.waybar.enable       = true;
+
+	services.mako.enable         = true;
+	services.swayidle.enable     = true;
+	services.polkit-gnome.enable = true;
 
   programs.steam.enable = true;
 
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     ubuntu-sans
+    ubuntu-sans-mono
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
