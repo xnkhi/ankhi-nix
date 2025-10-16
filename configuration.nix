@@ -15,15 +15,14 @@
 
   time.timeZone = "America/New_York";
 
-  services.displayManager.sddm.enable         = true;
-  services.displayManager.sddm.wayland.enable = true;
+  services.xserver.displayManager.gdm.enable  = true;
   services.printing.enable                    = true;
   services.pipewire.enable                    = true;
   services.pipewire.pulse.enable              = true;
   services.libinput.enable                    = true;
   services.supergfxd.enable                   = true;
   services.asusd.enable                       = true;
-  services.asusd.enableUserService            = true;
+  services.asusd.enableUserService = true;
 
   users.users.ankhi = {
       isNormalUser = true;
@@ -36,14 +35,6 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-
-    # desktop
-    niri
-    swaybg
-    xfce.thunar
-    xwayland-satellite
-    gnome-keyring
-    cava
 
     # basic utilities
     neovim
@@ -103,26 +94,15 @@
 
   ];
 
-  programs.alacritty.enable    = true;
-	programs.rofi.enable         = true;
-	programs.rofi.package        = pkgs.rofi-wayland;
-	programs.swaylock.enable     = true;
-	programs.waybar.enable       = true;
-
-	services.mako.enable         = true;
-	services.swayidle.enable     = true;
-	services.polkit-gnome.enable = true;
 
   programs.steam.enable = true;
 
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     ubuntu-sans
-    ubuntu-sans-mono
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.stateVersion = "25.05";
 
 }
-
