@@ -1,5 +1,10 @@
 // niri
 
+spawn-at-startup "xwayland-satellite"
+
+prefer-no-csd
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
 input {
     keyboard {
         xkb {}
@@ -85,15 +90,6 @@ hotkey-overlay {
 cursor {
     xcursor-theme "catppuccin-pink"
 }
-
-
-spawn-at-startup "xwayland-satellite"
-spawn-at-startup "waybar"
-spawn-at-startup "mako"
-
-prefer-no-csd
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-
 
 animations {}
 

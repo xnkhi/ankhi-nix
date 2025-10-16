@@ -6,29 +6,19 @@
       ./hardware-configuration.nix
     ];
 
-  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.enable      = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages                  = pkgs.linuxPackages_latest;
 
-  networking.hostName = "notebook";
-  networking.networkmanager.enable = true;
+  networking.hostName                  = "notebook";
+  networking.networkmanager.enable     = true;
 
   time.timeZone = "America/New_York";
 
-  services.displayManager.sddm.enable         = true;
-  services.displayManager.sddm.wayland.enable = true;
-  services.printing.enable                    = true;
-  services.pipewire.enable                    = true;
-  services.pipewire.pulse.enable              = true;
-  services.libinput.enable                    = true;
-  services.supergfxd.enable                   = true;
-  services.asusd.enable                       = true;
-  services.asusd.enableUserService = true;
-
   users.users.ankhi = {
       isNormalUser = true;
-      extraGroups = [ "wheel" ];
-      shell = pkgs.zsh;
+      extraGroups  = [ "wheel" ];
+      shell        = pkgs.zsh;
   };
   programs.zsh.enable = true;
 
@@ -36,6 +26,14 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+
+    # desktop
+    swaylock
+    swayidle
+    mako
+    alacritty
+    xfce.thunar
+    rofi-wayland
 
     # basic utilities
     neovim
@@ -95,14 +93,38 @@
 
   ];
 
-
-  programs.steam.enable = true;
-
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     ubuntu-sans
     ubuntu-sans-mono
   ];
+
+  programs = {
+    niri.enable   = true;
+    waybar.enable = true;
+    steam.enable  = true;
+  };
+
+  services = {
+    displayManager.sddm.enable         = true;
+    displayManager.sddm.wayland.enable = true;
+    gnome.gnome-keyring.enable         = true;
+    printing.enable                    = true;
+    pipewire.enable                    = true;
+    pipewire.pulse.enable              = true;
+    libinput.enable                    = true;
+    supergfxd.enable                   = true;
+    asusd.enable                       = true;
+    asusd.enableUserService            = true;
+  };
+
+  security = {
+    polkit.enable       = true;
+    pam.services.swaylock = {};
+  };
+  
+
+
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.stateVersion = "25.05";

@@ -30,17 +30,6 @@
 	programs.git.userName        = "xnkhi";
 	programs.git.userEmail       = "git.chokehold749@passinbox.com";
 
-
-	programs.alacritty.enable    = true;
-	programs.rofi.enable         = true;
-	programs.rofi.package        = pkgs.rofi-wayland;
-	programs.swaylock.enable     = true;
-	programs.waybar.enable       = true;
-
-	services.mako.enable         = true;
-	services.swayidle.enable     = true;
-	services.polkit-gnome.enable = true;
-
 	systemd.user.services.swaybg = {
 		Unit = {
 			Description = "swaybg background image service";
@@ -57,19 +46,11 @@
 
 	
 	home.packages = with pkgs; [
-		niri
-    	swaybg
-    	xfce.thunar
-    	xwayland-satellite
-    	gnome-keyring
-    	cava
-
 		catppuccin-cursors.mochaPink
 	];
 
 
 	home.file.".config/alacritty".source=./config/alacritty;
-	# home.file.".config/fontconfig".source=./config/fontconfig;
 	home.file.".config/mako".source=./config/mako;
 	home.file.".config/niri".source=./config/niri;
 	home.file.".config/rofi".source=./config/rofi;
