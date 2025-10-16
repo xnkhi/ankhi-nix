@@ -15,7 +15,8 @@
 
   time.timeZone = "America/New_York";
 
-  services.xserver.displayManager.gdm.enable  = true;
+  services.displayManager.sddm.enable         = true;
+  services.displayManager.sddm.wayland.enable = true;
   services.printing.enable                    = true;
   services.pipewire.enable                    = true;
   services.pipewire.pulse.enable              = true;
@@ -100,6 +101,7 @@
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     ubuntu-sans
+    ubuntu-sans-mono
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
