@@ -15,22 +15,21 @@
 
   time.timeZone = "America/New_York";
 
-  services.displayManager.sddm.enable = true;
+  services.displayManager.sddm.enable         = true;
   services.displayManager.sddm.wayland.enable = true;
-  services.printing.enable = true;
-  services.pipewire.enable = true;
-  services.pipewire.pulse.enable = true;
-  services.libinput.enable = true;
-  services.supergfxd.enable = true;
-  services.asusd.enable = true;
-  services.asusd.enableUserService = true;
+  services.printing.enable                    = true;
+  services.pipewire.enable                    = true;
+  services.pipewire.pulse.enable              = true;
+  services.libinput.enable                    = true;
+  services.supergfxd.enable                   = true;
+  services.asusd.enable                       = true;
+  services.asusd.enableUserService            = true;
 
   users.users.ankhi = {
       isNormalUser = true;
       extraGroups = [ "wheel" ];
+      shell = pkgs.zsh;
   };
-
-  users.users.ankhi.shell = pkgs.zsh;
   programs.zsh.enable = true;
 
 
@@ -43,6 +42,7 @@
     swaybg
     xfce.thunar
     xwayland-satellite
+    gnome-keyring
     cava
 
     # basic utilities
