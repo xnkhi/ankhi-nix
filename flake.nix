@@ -17,7 +17,7 @@
 					home-manager = {
 						useGlobalPkgs = true;
 						useUserPackages = true;
-						users.ankhi = import ./home.nix;
+						users.ankhi = import ./home-manager-config/home.nix;
 						backupFileExtension = "backup";
 					};
 				}

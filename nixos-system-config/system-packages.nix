@@ -1,0 +1,83 @@
+{ config, lib, pkgs, ... }:
+
+{
+    environment.systemPackages = with pkgs; [
+
+        # desktop
+            swaylock
+            swayidle
+            mako
+            alacritty
+            xfce.thunar
+            rofi-wayland
+
+        # basic utilities
+            neovim
+            btop
+            wget
+            curl
+            tree
+            p7zip
+            nmap
+
+        # languages
+            nasm
+            gcc
+            rustc
+            go
+            lua
+            python314
+
+        # internet
+            ungoogled-chromium
+            firefox
+            tor
+            tor-browser
+            openvpn
+            proxychains
+            qbittorrent
+            filezilla
+
+        # applications
+            mpv
+            obs-studio
+            gimp3
+            inkscape
+            vscodium
+            wireshark
+            burpsuite
+            ghidra-bin
+            virt-manager
+            cryptomator
+            keepassxc
+            feather
+            vesktop
+
+        # games
+            antimicrox
+            melonDS
+            dolphin-emu
+            cemu
+
+        # other
+            fastfetch
+            gnome-keyring
+            openrgb-with-all-plugins
+            pavucontrol
+            wineWowPackages.stable
+            winetricks
+
+    ];
+
+    fonts.packages = with pkgs; [
+        nerd-fonts.jetbrains-mono
+        ubuntu-sans
+        ubuntu-sans-mono
+    ];
+
+    programs = {
+        niri.enable   = true;
+        waybar.enable = true;
+        steam.enable  = true;
+    };
+}
