@@ -9,7 +9,6 @@
 		./components/packages.nix
 		./components/services.nix
 		./components/programsettings.nix
-		./components/zsh.nix
 		./components/files.nix
   	];
 
