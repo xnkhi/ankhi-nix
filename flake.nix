@@ -9,7 +9,7 @@
 		};
 	};
 
-	outputs = { self, nixpkgs, home-manager, ... }: {
+	outputs = { self, nixpkgs, home-manager, catppuccin, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
