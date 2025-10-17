@@ -43,7 +43,6 @@
             obs-studio
             gimp3
             inkscape
-            vscodium
             wireshark
             burpsuite
             ghidra-bin

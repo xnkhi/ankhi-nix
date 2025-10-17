@@ -8,8 +8,9 @@
 	imports = [
 		./components/packages.nix
 		./components/services.nix
-		./components/programsettings.nix
+		./components/program-settings.nix
 		./components/files.nix
+		./components/theming.nix
   	];
 
 }

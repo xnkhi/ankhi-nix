@@ -3,19 +3,20 @@
 {
     catppuccin = {
 
-        enable              =  true;
+        enable                =  true;
 
-        accent              = "pink";
-        flavor              = "mocha";
+        accent                = "pink";
+        flavor                = "mocha";
 
-        tty.enable          =  true;
-        tty.flavor          = "mocha"
+        tty.enable            =  true;
+        tty.flavor            = "mocha";
 
-        sddm.enable         =  true;
-        sddm.accent         = "pink";
-        sddm.flavor         = "mocha";
-        sddm.clockEnabled   =  true;
-        sddm.background     =  ./assets/sddmwallpaper.png;
+        sddm.enable           =  true;
+        sddm.accent           = "pink";
+        sddm.flavor           = "mocha";
+        sddm.clockEnabled     =  true;
+        sddm.assertQt6Sddm   =  true;
+        sddm.background       =  ./assets/sddmwallpaper.png;
 
     };
 }

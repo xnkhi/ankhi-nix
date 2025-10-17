@@ -4,6 +4,7 @@
     services = {
         displayManager.sddm.enable           = true;
         displayManager.sddm.wayland.enable   = true;
+        displayManager.sddm.package          = pkgs.kdePackages.sddm; # 😭
         gnome.gnome-keyring.enable           = true;
         printing.enable                      = true;
         pipewire.enable                      = true;
