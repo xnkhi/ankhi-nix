@@ -21,7 +21,7 @@
 						useUserPackages = true;
 						backupFileExtension = "backup";
 						users.ankhi.imports = [
-							./home-manager-config/home.nix;
+							./home-manager-config/home.nix
 							catppuccin.homeModules.catppuccin
 						];
 					};
