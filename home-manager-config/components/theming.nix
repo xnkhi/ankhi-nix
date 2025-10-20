@@ -1,7 +1,9 @@
 { config, pkgs, ... }:
 
 {
-	
+
+	# catppuccin vscodium extensions at .assets/vscodium-extensions imported by ./files.nix
+
   catppuccin = {
 
     enable              =  true;
