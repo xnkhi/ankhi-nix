@@ -67,6 +67,7 @@
             pavucontrol
             wineWowPackages.stable
             winetricks
+            libdrm
 
     ];
 
