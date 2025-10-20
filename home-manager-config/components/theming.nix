@@ -1,12 +1,13 @@
 { config, pkgs, ... }:
 
 {
-    catppuccin = {
+	
+  catppuccin = {
 
-        enable              =  true;
+    enable              =  true;
 
-        accent              = "pink";
-        flavor              = "mocha";
+    accent              = "pink";
+  	flavor              = "mocha";
 
 		gtk.icon.enable     =  true;
 		gtk.icon.accent     = "pink";
@@ -22,7 +23,7 @@
 		nvim.enable         =  true;
 		nvim.flavor         = "mocha";
 
-        btop.enable         =  true;
+    btop.enable         =  true;
 		btop.flavor         = "mocha";
 
 		obs.enable          =  true;
@@ -35,13 +36,6 @@
 		zsh-syntax-highlighting.enable     =  true;
 		zsh-syntax-highlighting.flavor     = "mocha";
 
-		vscode.profiles.Default.enable            =  true;
-		vscode.profiles.Default.accent            = "pink";
-		vscode.profiles.Default.flavor            = "mocha";
-		vscode.profiles.Default.icons.enable      =  true;
-		vscode.profiles.Default.icons.flavor      = "mocha";
-		vscode.profiles.Default.settings.accent   = "mocha";
+  };
 
-
-    };
 }
