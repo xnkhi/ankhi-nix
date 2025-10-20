@@ -13,7 +13,7 @@
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
-				./configuration.nix
+				./nixos-system-config/configuration.nix
 				catppuccin.nixosModules.catppuccin
 				home-manager.nixosModules.home-manager {
 					home-manager = {

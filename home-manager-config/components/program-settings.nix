@@ -11,6 +11,8 @@
 		shellAliases = {
 			la      = "ls -a";
 			ll      = "ls -l";
+			cls     = "clear";
+			v       = "nvim";
 			sysup   = "sudo nixos-rebuild switch --flake ~/.system-dotfiles#notebook";
 		};
 	};
