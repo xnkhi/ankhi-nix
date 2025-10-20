@@ -3,7 +3,6 @@
 {
 
 	programs.zsh = {
-		enable       = true;
 		history.size = 100;
 		initContent  = ''
 			autoload -Uz colors && colors
@@ -17,7 +16,6 @@
 	};
 
 	programs.zsh.zplug = {
-		enable = true;
 		plugins = [
 			{ name = "zsh-users/zsh-autosuggestions"; }
 			{ name = "zsh-users/zsh-syntax-highlighting"; }
@@ -25,7 +23,6 @@
 	};
 
 	programs.git = {
-		enable      = true;
 		userName    = "xnkhi";
 		userEmail   = "git.chokehold749@passinbox.com";
 	};

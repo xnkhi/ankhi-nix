@@ -10,6 +10,7 @@
             alacritty
             xfce.thunar
             rofi-wayland
+            xwayland-satellite
 
         # basic utilities
             neovim
