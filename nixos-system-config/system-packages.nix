@@ -76,8 +76,10 @@
     ];
 
     programs = {
-        niri.enable   = true;
-        waybar.enable = true;
-        steam.enable  = true;
+        niri.enable       = true;
+        waybar.enable     = true;
+        java.enable       = true;
+        appimage.enable   = true;
     };
+
 }
