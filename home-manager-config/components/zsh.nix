@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-    programs.zsh.enable = true;
+	programs.zsh.enable = true;
 	programs.zsh.history.size = 100;
 	programs.zsh.shellAliases = {
 		la = "ls -a";

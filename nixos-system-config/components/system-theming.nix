@@ -15,7 +15,7 @@
         sddm.accent           = "pink";
         sddm.flavor           = "mocha";
         sddm.clockEnabled     =  true;
-        sddm.assertQt6Sddm   =  true;
+        sddm.assertQt6Sddm    =  true;
         sddm.background       =  ./assets/sddmwallpaper.png;
 
     };

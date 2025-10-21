@@ -11,6 +11,7 @@
             xfce.thunar
             rofi-wayland
             xwayland-satellite
+            papirus-icon-theme
 
         # basic utilities
             neovim
@@ -44,6 +45,7 @@
             obs-studio
             gimp3
             inkscape
+            davinci-resolve
             vscodium
             wireshark
             burpsuite
@@ -67,7 +69,6 @@
             pavucontrol
             wineWowPackages.stable
             winetricks
-            libdrm
 
     ];
 
