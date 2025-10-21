@@ -12,6 +12,7 @@
             rofi-wayland
             xwayland-satellite
             papirus-icon-theme
+            catppuccin-papirus-folders
 
         # basic utilities
             neovim
