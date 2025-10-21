@@ -15,7 +15,7 @@
 		}
 	},
     "cava": {
-            "framerate": 240,
+            "framerate": 165,
             "autosens": 1,
             "sensitivity": 5,
             "bars": 8,
@@ -30,8 +30,8 @@
             "waves": true,
             "noise_reduction": 0.77,
             "input_delay": 0,
-            "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-             },
+            "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ]
+    },
 
     "backlight": {
         "device": "intel_backlight",
@@ -81,24 +81,10 @@
         "format": " ",
         "on-click": "rofi -show drun",
         "on-click-right": "killall rofi",
-        "tooltip": false,
+        "tooltip": false
     },
     "clock": {
         "format": "  {:%A - %B %d, %Y - %R}",
-        "tooltip": false,
-    },
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "tooltip": false,
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "urgent": "",
-            "active": "",
-            "default": ""
-    },
-    },
+        "tooltip": false
+    }
 }
