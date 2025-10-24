@@ -16,5 +16,11 @@
         shell          = pkgs.zsh;
     };
 
+    users.groups.libvirtd.members = [ "ankhi" ];
+    virtualisation = {
+    	libvirtd.enable = true;
+	spiceUSBRedirection.enable = true;
+    };
+
     programs.zsh.enable = true;
 }

@@ -9,6 +9,7 @@
             mako
             alacritty
             xfce.thunar
+	    nautilus
             rofi-wayland
             xwayland-satellite
             papirus-icon-theme

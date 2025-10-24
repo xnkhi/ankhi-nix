@@ -20,8 +20,9 @@
 
 	programs.zsh.oh-my-zsh = {
 		plugins = [
-			"zsh-autosuggestions"
-			"zsh-syntax-highlighting"
+			"git"
+			"autosuggestions"
+			"syntax-highlighting"
 		];
 	};
 
