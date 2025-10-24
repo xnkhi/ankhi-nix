@@ -6,8 +6,8 @@
 	];
 
     programs = {
-        git.enable         = true;
-        zsh.enable         = true;
-        zsh.zplug.enable   = true;
+        git.enable             = true;
+        zsh.enable             = true;
+        zsh.oh-my-zsh.enable   = true;
     };
 }

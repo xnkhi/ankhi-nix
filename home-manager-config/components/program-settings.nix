@@ -6,7 +6,10 @@
 		history.size = 100;
 		initContent  = ''
 			autoload -Uz colors && colors
-			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{blue}%~%f > "
+			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{blue}%~%f \ "
+		'';
+		initExtra = ''
+			bindkey "''${key[Up]}" up-line-or-search
 		'';
 		shellAliases = {
 			la      = "ls -a";
@@ -17,10 +20,10 @@
 		};
 	};
 
-	programs.zsh.zplug = {
+	programs.zsh.oh-my-zsh = {
 		plugins = [
-			{ name = "zsh-users/zsh-autosuggestions"; }
-			{ name = "zsh-users/zsh-syntax-highlighting"; }
+			"zsh-autosuggestions"
+			"zsh-syntax-highlighting"
 		];
 	};
 
