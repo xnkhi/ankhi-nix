@@ -6,10 +6,8 @@
 		history.size = 100;
 		initContent  = ''
 			autoload -Uz colors && colors
-			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{blue}%~%f \ "
-		'';
-		initExtra = ''
 			bindkey "''${key[Up]}" up-line-or-search
+			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{blue}%~%f \ "
 		'';
 		shellAliases = {
 			la      = "ls -a";
