@@ -35,7 +35,7 @@
 	gtk = {
 
 		enable = true;
-		
+
 		cursorTheme.package = pkgs.catppuccin-cursors.mochaPink;
 
 		iconTheme.package = pkgs.catppuccin-papirus-folders.override {
@@ -47,8 +47,8 @@
 		theme = {
 			name = "Catppuccin-Mocha-Pink-Dark";
 			package = pkgs.catppuccin-gtk.override {
-				accents = [ "pink" ];
-				variant = [ "mocha" ];
+				accents = "pink";
+				variant = "mocha";
 			};
 		};
 
