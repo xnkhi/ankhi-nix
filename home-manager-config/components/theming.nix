@@ -6,11 +6,6 @@
 
   catppuccin = {
 
-    enable              =  true;
-
-    accent              = "pink";
-  	flavor              = "mocha";
-
 		swaylock.enable     =  true;
 		swaylock.flavor     = "mocha";
 
@@ -36,28 +31,34 @@
 
 		enable = true;
 
-		cursorTheme.package = pkgs.catppuccin-cursors.mochaPink;
+		cursorTheme = {
+			name = "Catppuccin-Mocha-Pink-Cursors";
+			package = pkgs.catppuccin-cursors.mochaPink;
+		};
 
-		iconTheme.package = pkgs.catppuccin-papirus-folders.override {
-			flavor = "mocha";
-			accent = "pink";
+		iconTheme = {
+			name = "Papirus-Dark";
+			package = pkgs.catppuccin-papirus-folders.override {
+				flavor = "mocha";
+				accent = "pink";
+			};
 		};
 
 
 		theme = {
 			name = "Catppuccin-Mocha-Pink-Dark";
 			package = pkgs.catppuccin-gtk.override {
-				accents = "pink";
+				accents = [ "pink" ];
 				variant = "mocha";
 			};
 		};
 
 	};
 
-	xdg.configFile = {
-		"gtk-4.0/assets".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/assets";
-		"gtk-4.0/gtk.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk.css";
-		"gtk-4.0/gtk-dark.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
-	};
+	home.sessionVariables = {
+    	GTK_THEME = config.gtk.theme.name;
+    	XCURSOR_THEME = config.gtk.cursorTheme.name;
+    	XCURSOR_SIZE = "24";
+  	};
 
 }
