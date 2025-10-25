@@ -3,12 +3,15 @@
 {
 
 	programs.zsh = {
+
 		history.size = 100;
+
 		initContent  = ''
 			autoload -Uz colors && colors
 			bindkey "''${key[Up]}" up-line-or-search
 			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{blue}%~%f \ "
 		'';
+
 		shellAliases = {
 			la      = "ls -a";
 			ll      = "ls -l";
@@ -16,14 +19,19 @@
 			v       = "nvim";
 			sysup   = "sudo nixos-rebuild switch --flake ~/.system-dotfiles#notebook";
 		};
-	};
 
-	programs.zsh.oh-my-zsh = {
 		plugins = [
-			"git"
-			"autosuggestions"
-			"syntax-highlighting"
+			{
+				name = "zsh-autosuggestions";
+				src = pkgs.fetchFromGitHub {
+        			owner = "zsh-users";
+        			repo = "zsh-autosuggestions";
+        			rev = "v0.4.0";
+        			sha256 = "0z6i9wjjklb4lvr7zjhbphibsyx51psv50gm07mbb0kj9058j6kc";
+      			};
+			}
 		];
+
 	};
 
 	programs.git = {
