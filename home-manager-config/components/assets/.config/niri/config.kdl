@@ -79,8 +79,11 @@ overview {
 }
 
 environment {
+    QT_QPA_PLATFORM "wayland"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     DISPLAY ":0"
+    XCURSOR_THEME "Catppuccin Mocha Pink"
+    XCURSOR_SIZE "24"
 }
 
 hotkey-overlay {
@@ -88,7 +91,8 @@ hotkey-overlay {
 }
 
 cursor {
-    xcursor-theme "catppuccin-pink"
+    xcursor-theme "Catppuccin Mocha Pink"
+    xcursor-size 24
 }
 
 animations {}

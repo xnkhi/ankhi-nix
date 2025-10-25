@@ -32,7 +32,7 @@
 		enable = true;
 
 		cursorTheme = {
-			name = "Catppuccin-Mocha-Pink-Cursors";
+			name = "Catppuccin Mocha Pink";
 			package = pkgs.catppuccin-cursors.mochaPink;
 		};
 
@@ -46,10 +46,10 @@
 
 
 		theme = {
-			name = "Catppuccin-Mocha-Pink-Dark";
+			name = "catppuccin-mocha-pink-standard";
 			package = pkgs.catppuccin-gtk.override {
-				accents = [ "pink" ];
 				variant = "mocha";
+				accents = [ "pink" ];
 			};
 		};
 
