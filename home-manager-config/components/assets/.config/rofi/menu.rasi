@@ -15,7 +15,7 @@ window {
     border: 2px;
     border-color: @background;
     background-color: @background;
-    border-radius: 2px;
+    border-radius: 0px;
     padding: 0px 20px 0px 0px;
     font: @font;
 }
