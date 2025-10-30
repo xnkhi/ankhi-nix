@@ -12,20 +12,14 @@
 		};
 
 		iconTheme = {
-			name = "Papirus-Dark";
-			package = pkgs.catppuccin-papirus-folders.override {
-				flavor = "mocha";
-				accent = "pink";
-			};
+			name = "tempiconsname";
+			package = pkgs.windows10-icons;
 		};
 
 
 		theme = {
-			name = "catppuccin-mocha-pink-standard";
-			package = pkgs.catppuccin-gtk.override {
-				variant = "mocha";
-				accents = [ "pink" ];
-			};
+			name = "venta";
+			package = pkgs.venta;
 		};
 
 	};

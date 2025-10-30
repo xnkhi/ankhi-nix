@@ -1,12 +1,12 @@
 [colors.primary]
 background = "#000000"
-foreground = "#C0C0C0"
+foreground = "#CCCCCC"
 dim_foreground = "#808080"
 bright_foreground = "#FFFFFF"
 
 [colors.cursor]
 text = "#000000"
-cursor = "#C0C0C0"
+cursor = "#CCCCCC"
 
 [colors.vi_mode_cursor]
 text = "#000000"
@@ -14,7 +14,7 @@ cursor = "#FFFFFF"
 
 [colors.search.matches]
 foreground = "#000000"
-background = "#C0C0C0"
+background = "#CCCCCC"
 
 [colors.search.focused_match]
 foreground = "#000000"
@@ -22,7 +22,7 @@ background = "#FFFFFF"
 
 [colors.footer_bar]
 foreground = "#000000"
-background = "#C0C0C0"
+background = "#CCCCCC"
 
 [colors.hints.start]
 foreground = "#000000"
@@ -30,30 +30,30 @@ background = "#FFFF00"
 
 [colors.hints.end]
 foreground = "#000000"
-background = "#C0C0C0"
+background = "#CCCCCC"
 
 [colors.selection]
 text = "#000000"
-background = "#C0C0C0"
+background = "#CCCCCC"
 
 [colors.normal]
-black = "#000000"
-red = "#800000"
-green = "#008000"
-yellow = "#808000"
-blue = "#000080"
-magenta = "#800080"
-cyan = "#008080"
-white = "#C0C0C0"
+black = "#4C4A48"
+red = "#E81123"
+green = "#10893E"
+yellow = "#FFB900"
+blue = "#0078D7"
+magenta = "#E3008C"
+cyan = "#0099BC"
+white = "#FFFFFF"
 
 [colors.bright]
-black = "#808080"
-red = "#FF0000"
-green = "#00FF00"
-yellow = "#FFFF00"
-blue = "#0000FF"
-magenta = "#FF00FF"
-cyan = "#00FFFF"
+black = "#4C4A48"
+red = "#E81123"
+green = "#10893E"
+yellow = "#FFB900"
+blue = "#0078D7"
+magenta = "#E3008C"
+cyan = "#0099BC"
 white = "#FFFFFF"
 
 [[colors.indexed_colors]]
