@@ -7,6 +7,7 @@
   boot.initrd.kernelModules            = [ ];
   boot.kernelModules                   = [ "amdgpu" "kvm-amd" ];
   boot.extraModulePackages             = [ ];
+  boot.supportedFilesystems            = [ "ntfs" ];
 
   hardware.graphics = {
     enable      = true;

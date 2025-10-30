@@ -9,7 +9,7 @@
             mako
             alacritty
             xfce.thunar
-	    nautilus
+	        nautilus
             rofi-wayland
             xwayland-satellite
             papirus-icon-theme
@@ -21,7 +21,8 @@
             wget
             curl
             tree
-            p7zip
+            p7zip-rar
+            imagemagick
             nmap
 
         # languages

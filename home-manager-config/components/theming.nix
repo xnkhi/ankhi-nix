@@ -2,31 +2,6 @@
 
 {
 
-	# catppuccin vscodium extensions at .assets/vscodium-extensions imported by ./files.nix
-
-  catppuccin = {
-
-		swaylock.enable     =  true;
-		swaylock.flavor     = "mocha";
-
-		nvim.enable         =  true;
-		nvim.flavor         = "mocha";
-
-    btop.enable         =  true;
-		btop.flavor         = "mocha";
-
-		obs.enable          =  true;
-		obs.flavor          = "mocha";
-
-		vesktop.enable      =  true;
-		vesktop.accent      = "pink";
-		vesktop.flavor      = "mocha";
-
-		zsh-syntax-highlighting.enable     =  true;
-		zsh-syntax-highlighting.flavor     = "mocha";
-
-	};
-
 	gtk = {
 
 		enable = true;

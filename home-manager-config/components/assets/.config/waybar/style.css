@@ -6,7 +6,7 @@
 	min-height: 10px;
 }
 window#waybar {
-	background: #11111B;
+	background: #000000;
 }
 #cava{
     margin-top: 2px;
@@ -16,13 +16,13 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s; 
 }
 #cava:hover{
-    color: #11111B;
-    background: #f5c2e7;
+    color: #000000;
+    background: #e3008c;
 }
 #battery{
     margin-top: 2px;
@@ -32,17 +32,17 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s; 
 }
 #battery:hover{
-    color: #11111B;
-    background: #f5c2e7;
+    color: #000000;
+    background: #e3008c;
 }
 #backlight:hover{
-    color: #11111B;
-    background: #f5c2e7;
+    color: #000000;
+    background: #e3008c;
 }
 #backlight{
     margin-top: 2px;
@@ -52,8 +52,8 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s; 
 }
 #pulseaudio {
@@ -64,23 +64,23 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     padding: 8px;
     transition: 0.3s;
 }
 #pulseaudio:hover{ 
-    background: #f5c2e7;
-    color: #11111B;
+    background: #e3008c;
+    color: #000000;
 }
 #pulseaudio.muted {
-    color: #f38ba8;
-    background: #11111B; 
+    color: #e81123;
+    background: #000000; 
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
-    background: #f38ba8;
-    color: #11111B; 
+    background: #e81123;
+    color: #000000; 
 
 }
 #clock {
@@ -91,13 +91,13 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #clock:hover {
-    color: #11111B; 
-    background: #f5c2e7;
+    color: #000000; 
+    background: #e3008c;
 }
 #disk{
     margin-top: 2px;
@@ -107,13 +107,13 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #disk:hover{
-    color: #11111B; 
-    background: #f5c2e7;
+    color: #000000; 
+    background: #e3008c;
 }
 #memory {
     margin-top: 2px;
@@ -123,13 +123,13 @@ window#waybar {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #memory:hover { 
-    color: #11111B; 
-    background: #f5c2e7;
+    color: #000000; 
+    background: #e3008c;
 
 }
 #cpu {
@@ -140,13 +140,13 @@ window#waybar {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #cpu:hover {
-    color: #11111B; 
-    background: #f5c2e7;
+    color: #000000; 
+    background: #e3008c;
 
 }
 #workspaces {
@@ -154,12 +154,12 @@ window#waybar {
     margin-left: 8px;
     padding-right: 4px;
     margin-bottom: 2px;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #workspaces button {
-    color: #f5c2e7;
+    color: #e3008c;
     transition: 0.3s;
 }
 #workspaces button:hover {
@@ -174,8 +174,8 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
 #tray menu{
@@ -186,7 +186,7 @@ window#waybar {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #11111B; 
-    color: #f5c2e7;
+    background: #000000; 
+    color: #e3008c;
     transition: 0.3s;
 }
