@@ -1,0 +1,28 @@
+{
+	"name": "vscodium-amoled",
+	"displayName": "AMOLED",
+	"publisher": "ankitpati",
+    "license": "GPL-3.0-or-later",
+	"description": "AMOLED Black Theme",
+    "icon": "images/black-pixel.png",
+	"version": "1.0.3",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/ankitpati/vscodium-amoled.git"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "AMOLED",
+				"uiTheme": "vs-dark",
+				"path": "./themes/amoled-color-theme.json"
+			}
+		]
+	}
+}

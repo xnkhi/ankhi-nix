@@ -12,13 +12,13 @@
 		};
 
 		iconTheme = {
-			name = "tempiconsname";
+			name = "Windows 10";
 			package = pkgs.windows10-icons;
 		};
 
 
 		theme = {
-			name = "venta";
+			name = "Venta Dark";
 			package = pkgs.venta;
 		};
 
