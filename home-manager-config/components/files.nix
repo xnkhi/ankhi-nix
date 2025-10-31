@@ -7,5 +7,7 @@
 	home.file.".config/mako".source            = ./assets/.config/mako;
 	home.file.".config/alacritty".source       = ./assets/.config/alacritty;
 	home.file.".config/wallpaper.png".source   = ./assets/.config/wallpaper.png;
+	home.file.".themes".source                 = ./assets/.themes;
+	home.file.".icons".source                  = ./assets/.icons;
 	home.file.".chromium-extensions".source    = ./assets/chromium-extensions;
 }

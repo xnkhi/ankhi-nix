@@ -12,7 +12,6 @@
             nautilus
             rofi-wayland
             xwayland-satellite
-            lxappearance-gtk2
 
         # basic utilities
             neovim

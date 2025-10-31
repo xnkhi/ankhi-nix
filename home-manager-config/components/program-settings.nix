@@ -34,6 +34,13 @@
 
 	};
 
+	xdg.mimeApps = {
+		enable = true;
+		defaultApplications = {
+			"inode/directory" = [ "org.xfce.thunar.desktop" ];
+		};
+	};
+
 	programs.git = {
 		userName    = "xnkhi";
 		userEmail   = "git.chokehold749@passinbox.com";
