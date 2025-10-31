@@ -67,6 +67,7 @@
             fastfetch
             gnome-keyring
             openrgb-with-all-plugins
+            razergenie
             pulseaudio
             pavucontrol
             wineWowPackages.stable
