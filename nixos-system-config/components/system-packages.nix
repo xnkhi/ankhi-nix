@@ -9,11 +9,10 @@
             mako
             alacritty
             xfce.thunar
-	        nautilus
+            nautilus
             rofi-wayland
             xwayland-satellite
-            papirus-icon-theme
-            catppuccin-papirus-folders
+            lxappearance-gtk2
 
         # basic utilities
             neovim
