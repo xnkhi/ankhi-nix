@@ -6,26 +6,15 @@
 
 		enable = true;
 
-		cursorTheme = {
-			name = "Catppuccin Mocha Pink";
-			package = pkgs.catppuccin-cursors.mochaPink;
-		};
-
-		iconTheme = {
-			name = "Windows 10";
-			package = pkgs.windows10-icons;
-		};
-
-
 		theme = {
-			name = "Venta Dark";
-			package = pkgs.venta;
+			name = "Kali-Pink-Dark-Amoled";
 		};
 
 	};
 
 	home.sessionVariables = {
     	GTK_THEME = config.gtk.theme.name;
+		XDG_DATA_DIRS = "${config.home.homeDirectory}/.themes:${config.home.homeDirectory}/.local/share:${pkgs.gtk3}/share";
     	XCURSOR_THEME = config.gtk.cursorTheme.name;
     	XCURSOR_SIZE = "24";
   	};
