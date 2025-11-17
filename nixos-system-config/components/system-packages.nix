@@ -1,9 +1,19 @@
 { config, lib, pkgs, ... }:
 
 {
+
     environment.systemPackages = with pkgs; [
+        
+        # hardware
+            pulseaudio
+            pavucontrol
+
+        # system
+            iptables
+            gnome-keyring
 
         # desktop
+            swayosd
             swaylock
             swayidle
             mako
@@ -14,25 +24,32 @@
             xwayland-satellite
 
         # basic utilities
-            neovim
             btop
+            tree
             wget
             curl
-            tree
+            nmap
             p7zip-rar
             imagemagick
-            nmap
 
-        # languages
+        # development
             nasm
             gcc
             rustc
+            cargo
             go
             lua
             python314
 
+        # development (editor - vscodium & nvim)
+            vscodium
+            neovim
+            fd
+            fzf
+            ripgrep
+            vimPlugins.nvim-treesitter
+
         # internet
-            ungoogled-chromium
             firefox
             tor
             tor-browser
@@ -47,29 +64,23 @@
             gimp3
             inkscape
             davinci-resolve
-            vscodium
             wireshark
             burpsuite
             ghidra-bin
             virt-manager
             cryptomator
             keepassxc
+            kdePackages.kleopatra
             feather
             vesktop
 
         # games
-            antimicrox
             melonDS
             dolphin-emu
             cemu
 
-        # other
+        # misc
             fastfetch
-            gnome-keyring
-            openrgb-with-all-plugins
-            razergenie
-            pulseaudio
-            pavucontrol
             wineWowPackages.stable
             winetricks
 
@@ -82,10 +93,15 @@
     ];
 
     programs = {
+        zsh.enable        = true;
         niri.enable       = true;
         waybar.enable     = true;
         java.enable       = true;
         appimage.enable   = true;
+    };
+    
+    virtualisation.waydroid = {
+        enable = true;
     };
 
 }

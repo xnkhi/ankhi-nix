@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+options="Task Manager
+Edit System
+Rebuild System
+Lock
+Sign Out
+Reboot
+Power Off
+"
+
+choice=$(printf "%s\n" "$options" | rofi -dmenu)
+
+case "$choice" in
+    "Task Manager") alacritty --command btop ;;
+    "Edit System") codium /etc/nixos ;;
+    "Rebuild System") alacritty --command zsh -c "sudo nixos-rebuild switch; exec zsh" ;;
+    "Lock") swaylock ;;
+    "Sign Out") pkill -fi niri ;;
+    "Reboot") reboot ;;
+    "Power Off") poweroff ;;
+esac
