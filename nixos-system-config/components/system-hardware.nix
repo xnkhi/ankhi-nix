@@ -20,6 +20,19 @@
 
         # Controller-to-keyboard remapper
         antimicrox
+
     ];
+
+
+    services = {
+
+        # GPU management for ROG laptops
+        supergfxd.enable = true;
+        asusd = {
+            enable = true;
+            enableUserService = true;
+        };
+        
+    };
     
 }

@@ -1,9 +1,12 @@
-[X-GNOME-Metatheme]
-Name=amoled
+[Desktop Entry]
 Type=X-GNOME-Metatheme
-Comment=There was only one
+Name=catppuccin-mocha-pink-standard+default
+Comment=An Flat Gtk+ theme based on Elegant Design
 Encoding=UTF-8
-GtkTheme=amoled
-IconTheme=Adwaita
-CursorTheme=Adwaita
-CursorSize=24
+
+[X-GNOME-Metatheme]
+GtkTheme=catppuccin-mocha-pink-standard+default
+MetacityTheme=catppuccin-mocha-pink-standard+default
+IconTheme=Tela-circle-Dark
+CursorTheme=Mocha-cursors
+ButtonLayout=close,minimize,maximize:menu

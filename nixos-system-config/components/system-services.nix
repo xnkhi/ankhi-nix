@@ -4,18 +4,12 @@
     services = {
         gnome.gnome-keyring.enable   = true;
         pcscd.enable                 = true;
-        printing.enable              = true;
         libinput.enable              = true;
-        supergfxd.enable             = true;
-        asusd.enable                 = true;
-        asusd.enableUserService      = true;
     };
 
-    services.displayManager = {
-        sddm.enable                  = true;
-        sddm.wayland.enable          = true;
-        sddm.package                 = pkgs.kdePackages.sddm;
-    };
+    # services.displayManager = {
+    #     gdm.enable                   = true;
+    # };
 
     services.pipewire = {
         enable                       = true;
@@ -28,6 +22,7 @@
     services.flatpak = {
         enable = true;
     };
+
 
     security = {
         polkit.enable                = true;

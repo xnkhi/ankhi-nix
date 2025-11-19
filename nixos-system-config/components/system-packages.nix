@@ -20,7 +20,7 @@
             alacritty
             xfce.thunar
             nautilus
-            rofi-wayland
+            rofi
             xwayland-satellite
 
         # basic utilities
@@ -32,7 +32,7 @@
             p7zip-rar
             imagemagick
 
-        # development
+        # development (languages)
             nasm
             gcc
             rustc
@@ -81,6 +81,7 @@
 
         # misc
             fastfetch
+            lact
             wineWowPackages.stable
             winetricks
 

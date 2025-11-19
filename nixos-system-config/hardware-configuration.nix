@@ -9,9 +9,20 @@
     ];
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "usbhid" ];
-  boot.initrd.kernelModules = [ ];
+  boot.initrd.kernelModules = [ "amdgpu" ];
+  boot.kernelParams = [
+    "amdgpu.runpm=0"
+    "pcie_aspm=off"
+    "i8042.reset"
+    "i8042.nomux"
+    ];
   boot.kernelModules = [ ];
   boot.extraModulePackages = [ ];
+
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
 
 
   fileSystems."/" =
