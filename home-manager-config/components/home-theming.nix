@@ -18,6 +18,12 @@
 
 	};
 
+	qt = {
+		enable = true;
+		platformTheme = "qtct";
+		style.name = "kvantum";
+	};
+
 	home.sessionVariables = {
     	XCURSOR_SIZE   = "24";
     	GTK_THEME      = "amoled";

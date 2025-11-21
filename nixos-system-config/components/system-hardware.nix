@@ -32,6 +32,11 @@
             enable = true;
             enableUserService = true;
         };
+
+        # peripheral input remapper
+        input-remapper = {
+            enable = true;
+        };
         
     };
     

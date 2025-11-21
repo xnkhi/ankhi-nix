@@ -13,6 +13,7 @@
     networking = {
         hostName                = "notebook";
         networkmanager.enable   = true;
+        nftables.enable         = true;
     };
 
     time.timeZone = "America/New_York";

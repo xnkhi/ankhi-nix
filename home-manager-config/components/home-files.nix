@@ -6,6 +6,7 @@
 	home.file.".config/rofi".source              = ./assets/.config/rofi;
 	home.file.".config/mako".source              = ./assets/.config/mako;
 	home.file.".config/alacritty".source         = ./assets/.config/alacritty;
+	home.file.".config/Kvantum".source           = ./assets/.config/Kvantum;
 	#home.file.".config/nvim".source              = ./assets/.config/nvim;
 	home.file.".config/fastfetch".source         = ./assets/.config/fastfetch;
 	home.file.".config/wallpaper.png".source     = ./assets/.config/wallpaper.png;
