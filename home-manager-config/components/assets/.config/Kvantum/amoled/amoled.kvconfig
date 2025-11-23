@@ -131,16 +131,16 @@ inactive.window.text.color=#003333
 inactive.highlight.text.color=#00aaaa
 highlight.color=#00bbbb
 active.highlight.color=#00bbbb
-text.color=#00ffff
-shadow.color=#00ffff
-window.text.color=#00ffff
-button.text.color=#00ffff
+text.color=#b0b0b0
+shadow.color=#b0b0b0
+window.text.color=#b0b0b0
+button.text.color=#b0b0b0
 disabled.text.color=#003333
-highlight.text.color=#00ffff
+highlight.text.color=#b0b0b0
 link.color=#00ff00
 link.visited.color=#00ff00
-progress.indicator.text.color=#00ffff
-tooltip.text.color=#00ffff
+progress.indicator.text.color=#b0b0b0
+tooltip.text.color=#b0b0b0
 
 remove_extra_frames=true
 
