@@ -6,7 +6,7 @@
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
-		niri-blur-flake.url = "path:components/assets/niri-blur-flake.nix";
+		niri-blur-flake.url = "path:components/assets/custom-packages/niri-blur";
 	};
 
 	outputs = { self, nixpkgs, home-manager, niri-blur-flake, ... }: {
