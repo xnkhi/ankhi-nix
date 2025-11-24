@@ -36,8 +36,10 @@ output "HDMI-A-1" {
 
 
 layout {
+    empty-workspace-above-first
+
     background-color "#000000"
-    gaps 0
+    gaps 3
     center-focused-column "never"
     preset-column-widths {
         proportion 0.33333
@@ -54,15 +56,14 @@ layout {
     }
 
     border {
-        off
         width 2
         active-color "#b0b0b0"
-        inactive-color "#000000"
-        urgent-color "#ff0000"
+        inactive-color "#858585"
+        urgent-color "#000000"
     }
 
     shadow {
-        // on
+        on
         draw-behind-window true
         softness 30
         spread 5
