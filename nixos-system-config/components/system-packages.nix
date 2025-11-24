@@ -13,9 +13,6 @@
             gnome-keyring
 
         # desktop
-            # I use a fork of the niri window manager that implements blur.
-            # See assets/niri-blur-bin for compiled binaries
-            # See system-niri.nix for niri installation
             swayosd
             swaylock
             swayidle
