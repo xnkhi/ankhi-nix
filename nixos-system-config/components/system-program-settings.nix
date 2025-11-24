@@ -7,7 +7,7 @@
     };
 
     programs.gnupg.agent = {
-        enable = true;
+       enable = true;
     };
 
     programs.steam = {

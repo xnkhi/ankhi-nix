@@ -19,6 +19,17 @@
         jack.enable                  = true;
     };
 
+    # xdg = {
+    #     portal.enable = true;
+    #     portal.config = {
+    #         common = {
+    #             default = [
+    #                 "gtk"
+    #             ];
+    #         };
+    #     };
+    # };
+
     services.flatpak = {
         enable = true;
     };

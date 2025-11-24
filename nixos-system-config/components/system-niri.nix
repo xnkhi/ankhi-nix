@@ -17,18 +17,18 @@ in
 
     environment.etc."xdg-desktop-portal/niri-portals.conf".source = "${niriBlurBin}/share/xdg-desktop-portal/niri-portals.conf";
 
-    systemd.user.services.niri = {
-        description = "Niri compositor";
-        serviceConfig = {
-            ExecStart = "${niriBlurBin}/bin/niri";
-        };
-        wantedBy = [ "graphical-session.target" ];
-    };
+    # systemd.user.services.niri = {
+    #     description = "Niri compositor";
+    #     serviceConfig = {
+    #         ExecStart = "${niriBlurBin}/bin/niri";
+    #     };
+    #     wantedBy = [ "graphical-session.target" ];
+    # };
 
-    systemd.user.targets."niri-shutdown" = {
-        unitConfig = {
-            Description = "Shutdown target for Niri";
-        };
-    };
+    # systemd.user.targets."niri-shutdown" = {
+    #     unitConfig = {
+    #         Description = "Shutdown target for Niri";
+    #     };
+    # };
 
 }

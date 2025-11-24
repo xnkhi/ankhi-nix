@@ -10,7 +10,6 @@
         ./components/system-configuration.nix
         ./components/system-packages.nix
         ./components/system-services.nix
-        ./components/system-niri.nix
         ./components/system-program-settings.nix
         ./components/system-hardware.nix
         ./components/system-theming.nix

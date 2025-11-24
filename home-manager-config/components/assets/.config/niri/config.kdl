@@ -197,7 +197,7 @@ binds {
     XF86AudioRaiseVolume        { spawn-sh "swayosd-client --output-volume raise"; }
     XF86AudioMute               { spawn-sh "swayosd-client --output-volume mute-toggle"; }
     XF86AudioMicMute            { spawn-sh "swayosd-client --input-volume mute-toggle"; }
-
+    
     XF86MonBrightnessDown       { spawn-sh "swayosd-client --brightness lower"; }
     XF86MonBrightnessUp         { spawn-sh "swayosd-client --brightness raise"; }
     Shift+XF86MonBrightnessDown { spawn-sh "swayosd-client --brightness 0"; }
