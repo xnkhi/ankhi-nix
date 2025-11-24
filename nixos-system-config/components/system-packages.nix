@@ -1,8 +1,5 @@
 { config, lib, pkgs, ... }:
 
-let
-    niri-blur-flake-packages = import <niri-blur-flake> {};
-in
 {
 
     environment.systemPackages = with pkgs; [
@@ -97,11 +94,8 @@ in
     ];
 
     programs = {
-        niri = {
-            enable = true;
-            package = niri-blur-flake-packages.niri;
-        };
         zsh.enable        = true;
+        niri.enable       = true;
         waybar.enable     = true;
         java.enable       = true;
         appimage.enable   = true;

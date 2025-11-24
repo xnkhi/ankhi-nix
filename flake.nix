@@ -1,16 +1,18 @@
 {
+
 	description = "Home Flake";
+
 	inputs = {
 		nixpkgs.url = "nixpkgs/nixos-unstable";
 		home-manager = {
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
-		niri-blur-flake.url = "path:components/assets/custom-packages/niri-blur";
 	};
 
-	outputs = { self, nixpkgs, home-manager, niri-blur-flake, ... }: {
+	outputs = { self, nixpkgs, home-manager, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
+
 			system = "x86_64-linux";
 			modules = [
 				./nixos-system-config/configuration.nix
@@ -25,9 +27,13 @@
 					};
 				}
 			];
-			specialArgs = {
-				inherit niri-blur-flake;
-			};
+
+			nixpkgs.overlays = [
+				(self: super: {
+					niri = super.callPackage ./nixos-system-config/components/assets/custom-packages/niri-blur {};
+				})
+			];
 		};
 	};
+
 }
