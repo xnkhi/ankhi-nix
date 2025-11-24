@@ -6,9 +6,10 @@
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
+		niri-blur-flake.url = "path:components/assets/niri-blur-flake.nix";
 	};
 
-	outputs = { self, nixpkgs, home-manager, ... }: {
+	outputs = { self, nixpkgs, home-manager, niri-blur-flake, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
@@ -24,6 +25,9 @@
 					};
 				}
 			];
+			specialArgs = {
+				inherit niri-blur-flake;
+			};
 		};
 	};
 }
