@@ -94,8 +94,11 @@
     ];
 
     programs = {
+        niri = {
+            enable = true;
+            package = pkgs.niri;
+        };
         zsh.enable        = true;
-        niri.enable       = true;
         waybar.enable     = true;
         java.enable       = true;
         appimage.enable   = true;
