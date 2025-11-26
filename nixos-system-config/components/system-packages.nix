@@ -78,6 +78,7 @@
             melonDS
             dolphin-emu
             cemu
+            prismlauncher
 
         # misc
             fastfetch
