@@ -12,9 +12,9 @@
 	imports = [
 		./components/home-packages.nix
 		./components/home-services.nix
+		./components/home-desktop.nix
 		./components/home-program-settings.nix
 		./components/home-files.nix
-		./components/home-theming.nix
   	];
 
 }

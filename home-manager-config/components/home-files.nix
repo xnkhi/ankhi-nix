@@ -12,6 +12,6 @@
 	home.file.".config/wallpaper.png".source     = ./assets/.config/wallpaper.png;
 
 	home.file.".scripts".source                  = ./assets/.scripts;
-	home.file.".themes".source                   = ./assets/.themes;
-	home.file.".icons".source                    = ./assets/.icons;
+	home.file.".themes/amoled".source            = ./assets/.themes/amoled;
+	home.file.".icons/windows-7-monochrome".source   = ./assets/.icons/windows-7-monochrome;
 }

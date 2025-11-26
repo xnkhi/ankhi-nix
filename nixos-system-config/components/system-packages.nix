@@ -12,17 +12,6 @@
             iptables
             gnome-keyring
 
-        # desktop
-            swayosd
-            swaylock
-            swayidle
-            mako
-            alacritty
-            xfce.thunar
-            nautilus
-            rofi
-            xwayland-satellite
-
         # basic utilities
             btop
             tree
@@ -96,8 +85,6 @@
 
     programs = {
         zsh.enable        = true;
-        niri.enable       = true;
-        waybar.enable     = true;
         java.enable       = true;
         appimage.enable   = true;
     };
