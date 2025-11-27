@@ -5,8 +5,8 @@
     "type": "file",
     "source": "~/.config/fastfetch/ascii.txt",
     "color": {
-      "1": "white",
-      "2": "black"
+      "1": "black",
+      "2": "magenta"
     }
   },
 
@@ -18,7 +18,7 @@
       "type": "command",
       "key": "Author",
       "text": "echo \"Ankhi / xnkh(i) / admin@kp-korea.org\"",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "break"
@@ -26,27 +26,27 @@
     {
       "type": "os",
       "key": "Operating System",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "kernel",
       "key": "System Kernel",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "initsystem",
       "key": "Init System",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "shell",
       "key": "System Shell",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "bootmgr",
       "key": "Bootloader",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "break"
@@ -54,27 +54,27 @@
     {
       "type": "lm",
       "key": "Display Manager",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "wm",
       "key": "Window Manager",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "terminal",
       "key": "Terminal Emulator",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "theme",
       "key": "GTK Theme",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "icons",
       "key": "Icon Theme",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "break"
@@ -82,41 +82,44 @@
     {
       "type": "host",
       "key": "Host Machine",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "localip",
       "key": "Local IP",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "cpu",
       "key": "CPU",
       "showPeCoreCount": true,
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "gpu",
       "key": "GPU",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "memory",
       "key": "RAM",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "physicaldisk",
       "key": "Storage",
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "display",
       "key": "Output Display",    
-      "keyColor": "black"
+      "keyColor": "magenta"
     },
     {
       "type": "break"
+    },
+    {
+      "type": "colors"
     }
   ]
 }

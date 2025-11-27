@@ -38,7 +38,7 @@ output "HDMI-A-1" {
 layout {
     empty-workspace-above-first
 
-    background-color "#000000"
+    background-color "#050304"
     gaps 0
     center-focused-column "never"
     preset-column-widths {
@@ -52,7 +52,7 @@ layout {
         off
         width 2
         active-color "#c1558e"
-        inactive-color "#000000"
+        inactive-color "#050304"
     }
 
     border {
@@ -60,7 +60,7 @@ layout {
         width 2
         active-color "#c1558e"
         inactive-color "#858585"
-        urgent-color "#000000"
+        urgent-color "#050304"
     }
 
     shadow {
@@ -81,7 +81,7 @@ layout {
 }
 
 overview {
-    backdrop-color "#000000"
+    backdrop-color "#050304"
 }
 
 environment {
