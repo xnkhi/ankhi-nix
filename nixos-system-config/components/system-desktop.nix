@@ -49,7 +49,7 @@
     #];
 
     services = {
-        displayManager.gdm.enable = true;
+        displayManager.ly.enable = true;
         #desktopManager.gnome.enable = true;
         #gnome = {
         #    core-apps.enable = false;

@@ -37,24 +37,25 @@ text = "#000000"
 background = "#b1b1b1"
 
 [colors.normal]
-black = "#4C4A48"
-red = "#C45B67"
-green = "#4F8F65"
-yellow = "#D7B55F"
-blue = "#4C89B5"
-magenta = "#C1558E"
-cyan = "#4E9AA7"
-white = "#b1b1b1"
+black   = "#2B2B2B"
+red     = "#c15563"
+green   = "#8ec155"
+yellow  = "#c18755"
+blue    = "#558ec1"
+magenta = "#c1558e"
+cyan    = "#55c187"
+white   = "#8d7b83"
 
 [colors.bright]
-black = "#4C4A48"
-red = "#C45B67"
-green = "#4F8F65"
-yellow = "#D7B55F"
-blue = "#4C89B5"
-magenta = "#C1558E"
-cyan = "#4E9AA7"
-white = "#b1b1b1"
+black   = "#2B2B2B"
+red     = "#cc5649"
+green   = "#29994a"
+yellow  = "#c0a24b"
+blue    = "#5c97db"
+magenta = "#c1558e"
+cyan    = "#2d9ead"
+white   = "#8d7b83"
+
 
 [[colors.indexed_colors]]
 index = 16
