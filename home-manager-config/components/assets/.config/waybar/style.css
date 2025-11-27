@@ -6,7 +6,7 @@
 	min-height: 10px;
 }
 window#waybar {
-	background: #000000;
+	background: #050304;
 }
 window#waybar.empty {
   background-color: transparent;
@@ -23,12 +23,12 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s; 
 }
 #cava:hover{
-    color: #000000;
+    color: #050304;
     background: #c1558e;
 }
 #battery{
@@ -39,16 +39,16 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s; 
 }
 #battery:hover{
-    color: #000000;
+    color: #050304;
     background: #c1558e;
 }
 #backlight:hover{
-    color: #000000;
+    color: #050304;
     background: #c1558e;
 }
 #backlight{
@@ -59,7 +59,7 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s; 
 }
@@ -71,23 +71,23 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     padding: 8px;
     transition: 0.3s;
 }
 #pulseaudio:hover{ 
     background: #c1558e;
-    color: #000000;
+    color: #050304;
 }
 #pulseaudio.muted {
     color: #e81123;
-    background: #000000; 
+    background: #050304; 
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
     background: #e81123;
-    color: #000000; 
+    color: #050304; 
 
 }
 #clock {
@@ -98,12 +98,12 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
 #clock:hover {
-    color: #000000; 
+    color: #050304; 
     background: #c1558e;
 }
 #disk{
@@ -114,12 +114,12 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
 #disk:hover{
-    color: #000000; 
+    color: #050304; 
     background: #c1558e;
 }
 #memory {
@@ -130,12 +130,12 @@ window#waybar.empty #window {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
 #memory:hover { 
-    color: #000000; 
+    color: #050304; 
     background: #c1558e;
 
 }
@@ -147,12 +147,12 @@ window#waybar.empty #window {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
 #cpu:hover {
-    color: #000000; 
+    color: #050304; 
     background: #c1558e;
 
 }
@@ -161,7 +161,7 @@ window#waybar.empty #window {
     margin-left: 8px;
     padding-right: 4px;
     margin-bottom: 2px;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
@@ -181,7 +181,7 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
@@ -193,7 +193,7 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #000000; 
+    background: #050304; 
     color: #c1558e;
     transition: 0.3s;
 }
