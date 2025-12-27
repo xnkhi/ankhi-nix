@@ -6,7 +6,7 @@
 	min-height: 10px;
 }
 window#waybar {
-	background: #050304;
+	background: #140d0e;
 }
 window#waybar.empty {
   background-color: transparent;
@@ -23,13 +23,13 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s; 
 }
 #cava:hover{
-    color: #050304;
-    background: #c1558e;
+    color: #140d0e;
+    background: #a0a0a0;
 }
 #battery{
     margin-top: 2px;
@@ -39,17 +39,17 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s; 
 }
 #battery:hover{
-    color: #050304;
-    background: #c1558e;
+    color: #140d0e;
+    background: #a0a0a0;
 }
 #backlight:hover{
-    color: #050304;
-    background: #c1558e;
+    color: #140d0e;
+    background: #a0a0a0;
 }
 #backlight{
     margin-top: 2px;
@@ -59,8 +59,8 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s; 
 }
 #pulseaudio {
@@ -71,23 +71,23 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     padding: 8px;
     transition: 0.3s;
 }
 #pulseaudio:hover{ 
-    background: #c1558e;
-    color: #050304;
+    background: #a0a0a0;
+    color: #140d0e;
 }
 #pulseaudio.muted {
     color: #e81123;
-    background: #050304; 
+    background: #140d0e; 
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
     background: #e81123;
-    color: #050304; 
+    color: #140d0e; 
 
 }
 #clock {
@@ -98,13 +98,13 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #clock:hover {
-    color: #050304; 
-    background: #c1558e;
+    color: #140d0e; 
+    background: #a0a0a0;
 }
 #disk{
     margin-top: 2px;
@@ -114,13 +114,13 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #disk:hover{
-    color: #050304; 
-    background: #c1558e;
+    color: #140d0e; 
+    background: #a0a0a0;
 }
 #memory {
     margin-top: 2px;
@@ -130,13 +130,13 @@ window#waybar.empty #window {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #memory:hover { 
-    color: #050304; 
-    background: #c1558e;
+    color: #140d0e; 
+    background: #a0a0a0;
 
 }
 #cpu {
@@ -147,13 +147,13 @@ window#waybar.empty #window {
     padding-right: 10px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #cpu:hover {
-    color: #050304; 
-    background: #c1558e;
+    color: #140d0e; 
+    background: #a0a0a0;
 
 }
 #workspaces {
@@ -161,12 +161,12 @@ window#waybar.empty #window {
     margin-left: 8px;
     padding-right: 4px;
     margin-bottom: 2px;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #workspaces button {
-    color: #c1558e;
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #workspaces button:hover {
@@ -181,8 +181,8 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }
 #tray menu{
@@ -193,7 +193,7 @@ window#waybar.empty #window {
     margin-bottom: 2px;
     border-radius: 2px;
     transition: none;
-    background: #050304; 
-    color: #c1558e;
+    background: #140d0e; 
+    color: #a0a0a0;
     transition: 0.3s;
 }

@@ -3,9 +3,9 @@ padding=8
 border-size=2
 border-radius=2
 
-background-color=#050304
-text-color=#c1558e
-border-color=#050304
+background-color=#140d0e
+text-color=#a0a0a0
+border-color=#140d0e
 
 default-timeout=5000
 

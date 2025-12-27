@@ -10,11 +10,16 @@
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "usbhid" "usb_storage" "sd_mod" ];
   boot.initrd.kernelModules = [ ];
-  boot.kernelModules = [ "kvm-amd" ];
+  boot.kernelModules = [ "amdgpu" ];
   boot.extraModulePackages = [ ];
   boot.kernelParams = [
     "processor.max_cstate=1"
   ];
+
+  hardware.graphics = {
+    enable = true;
+    # enable32bit = true;
+  };
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/fd5d2251-a788-4ccb-bfaf-003f5ede057d";

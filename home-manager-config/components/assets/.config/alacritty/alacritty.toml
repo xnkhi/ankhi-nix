@@ -1,39 +1,39 @@
 [colors.primary]
-background = "#050304"
+background = "#140d0e"
 foreground = "#846677"
 dim_foreground = "#a0a0a0"
 bright_foreground = "#846677"
 
 [colors.cursor]
-text = "#050304"
+text = "#140d0e"
 cursor = "#846677"
 
 [colors.vi_mode_cursor]
-text = "#050304"
+text = "#140d0e"
 cursor = "#846677"
 
 [colors.search.matches]
-foreground = "#050304"
+foreground = "#140d0e"
 background = "#846677"
 
 [colors.search.focused_match]
-foreground = "#050304"
+foreground = "#140d0e"
 background = "#846677"
 
 [colors.footer_bar]
-foreground = "#050304"
+foreground = "#140d0e"
 background = "#846677"
 
 [colors.hints.start]
-foreground = "#050304"
+foreground = "#140d0e"
 background = "#FFFF00"
 
 [colors.hints.end]
-foreground = "#050304"
+foreground = "#140d0e"
 background = "#846677"
 
 [colors.selection]
-text = "#050304"
+text = "#140d0e"
 background = "#846677"
 
 [colors.normal]
@@ -42,7 +42,7 @@ red     = "#b2313a"
 green   = "#488723"
 yellow  = "#b07f2c"
 blue    = "#5f68c6"
-magenta = "#c1558e"
+magenta = "#a0a0a0"
 cyan    = "#308188"
 white   = "#a8a6a7"
 
@@ -59,7 +59,7 @@ white   = "#b7b5b6"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#050304"
+color = "#140d0e"
 
 [[colors.indexed_colors]]
 index = 17

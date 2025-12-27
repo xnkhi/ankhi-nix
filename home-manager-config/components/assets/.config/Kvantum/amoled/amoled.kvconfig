@@ -119,9 +119,9 @@ tickless_slider_handle_size=24
 
 
 [GeneralColors]
-window.color=#000000
-base.color=#000000
-alt.base.color=#000000
+window.color=#0a0607
+base.color=#0a0607
+alt.base.color=#0a0607
 button.color=#00cccc
 light.color=#00cccc
 mid.light.color=#00aaaa
@@ -131,16 +131,16 @@ inactive.window.text.color=#003333
 inactive.highlight.text.color=#00aaaa
 highlight.color=#00bbbb
 active.highlight.color=#00bbbb
-text.color=#c1558e
-shadow.color=#c1558e
-window.text.color=#c1558e
-button.text.color=#c1558e
+text.color=#a0a0a0
+shadow.color=#a0a0a0
+window.text.color=#a0a0a0
+button.text.color=#a0a0a0
 disabled.text.color=#003333
-highlight.text.color=#c1558e
+highlight.text.color=#a0a0a0
 link.color=#00ff00
 link.visited.color=#00ff00
-progress.indicator.text.color=#c1558e
-tooltip.text.color=#c1558e
+progress.indicator.text.color=#a0a0a0
+tooltip.text.color=#a0a0a0
 
 remove_extra_frames=true
 

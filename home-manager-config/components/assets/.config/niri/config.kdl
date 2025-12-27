@@ -18,6 +18,11 @@ input {
         tap
         natural-scroll
     }
+
+    mouse {
+        accel-speed 0.0
+        accel-profile "flat"
+    }
 }
 
 // i cant figure this out so fml ig
@@ -38,7 +43,7 @@ output "HDMI-A-1" {
 layout {
     empty-workspace-above-first
 
-    background-color "#050304"
+    background-color "#140d0e"
     gaps 0
     center-focused-column "never"
     preset-column-widths {
@@ -51,16 +56,16 @@ layout {
     focus-ring {
         off
         width 2
-        active-color "#c1558e"
-        inactive-color "#050304"
+        active-color "#a0a0a0"
+        inactive-color "#140d0e"
     }
 
     border {
         off
         width 2
-        active-color "#c1558e"
+        active-color "#a0a0a0"
         inactive-color "#858585"
-        urgent-color "#050304"
+        urgent-color "#140d0e"
     }
 
     shadow {
@@ -81,7 +86,7 @@ layout {
 }
 
 overview {
-    backdrop-color "#050304"
+    backdrop-color "#140d0e"
 }
 
 environment {

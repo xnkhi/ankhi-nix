@@ -87,6 +87,7 @@
         zsh.enable        = true;
         java.enable       = true;
         appimage.enable   = true;
+        gamescope.enable  = true;
     };
     
     virtualisation.waydroid = {
