@@ -90,8 +90,9 @@
         gamescope.enable  = true;
     };
     
-    virtualisation.waydroid = {
-        enable = true;
+    virtualisation = {
+        waydroid.enable = true;
+        virtualisation.virtualbox.host.enable = true;
     };
 
 }

@@ -20,7 +20,7 @@
 
     users.users.ankhi = {
         isNormalUser   = true;
-        extraGroups    = [ "wheel" ];
+        extraGroups    = [ "wheel" "user-with-access-to-virtualbox" ];
         shell          = pkgs.zsh;
     };
 

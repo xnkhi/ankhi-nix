@@ -19,7 +19,7 @@ in
 		initContent  = ''
 			autoload -Uz colors && colors
 			bindkey "''${key[Up]}" up-line-or-search
-			PS1="[%F{magenta}%n%f.%F{black}%m%f] %F{red}%~%f \ "
+			PS1="[%F{magenta}%n%f.%F{white}%m%f] %F{red}%~%f \ "
 		'';
 
 		shellAliases = {
