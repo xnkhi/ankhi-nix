@@ -6,6 +6,11 @@
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
+		plasma-manager = {
+			url = "github:nix-community/plasma-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+		};
 		aerothemeplasma = {
 			url = "github:Rotlug/aerothemeplasma-nixos";
 			inputs.nixpkgs.follows = "nixpkgs";
@@ -13,7 +18,7 @@
 		};
 	};
 
-	outputs = { self, nixpkgs, home-manager, aerothemeplasma, ... }: {
+	outputs = { self, nixpkgs, home-manager, plasma-manager, aerothemeplasma, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
