@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "aerothemeplasma": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1765482786,
+        "narHash": "sha256-VbLsuHvJoZPkn/IkK6sQw53fbA37uC6qFNaHcCATasA=",
+        "owner": "Rotlug",
+        "repo": "aerothemeplasma-nixos",
+        "rev": "8452aa903e76f9c20a62024c6d6f2c4be6933c8d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Rotlug",
+        "repo": "aerothemeplasma-nixos",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -37,6 +53,7 @@
     },
     "root": {
       "inputs": {
+        "aerothemeplasma": "aerothemeplasma",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs"
       }

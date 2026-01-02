@@ -2,17 +2,17 @@
 
 {
     services = {
-        gnome.gnome-keyring.enable   = true;
-        pcscd.enable                 = true;
-        libinput.enable              = true;
+        gnome.gnome-keyring.enable = true;
+        pcscd.enable = true;
+        libinput.enable = true;
     };
 
     services.pipewire = {
-        enable                       = true;
-        alsa.enable                  = true;
-        alsa.support32Bit            = true;
-        pulse.enable                 = true;
-        jack.enable                  = true;
+        enable = true;
+        alsa.enable = true;
+        alsa.support32Bit = true;
+        pulse.enable = true;
+        jack.enable = true;
     };
 
     services.flatpak = {
@@ -21,6 +21,7 @@
 
 
     security = {
-        polkit.enable                = true;
+        polkit.enable = true;
+	rtkit.enable = true;
     };
 }

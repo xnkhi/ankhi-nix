@@ -10,7 +10,6 @@
 
         # system
             iptables
-            gnome-keyring
 
         # basic utilities
             btop

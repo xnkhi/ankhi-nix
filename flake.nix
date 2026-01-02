@@ -9,6 +9,7 @@
 		aerothemeplasma = {
 			url = "github:Rotlug/aerothemeplasma-nixos";
 			inputs.nixpkgs.follows = "nixpkgs";
+			flake = false;
 		};
 	};
 
@@ -22,6 +23,7 @@
 						useGlobalPkgs = true;
 						useUserPackages = true;
 						backupFileExtension = "backup";
+						sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ];
 						users.ankhi.imports = [
 							./home-manager-config/home.nix
 						];
