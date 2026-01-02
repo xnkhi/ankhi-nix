@@ -1,7 +1,7 @@
-{ config, lib, pkgs, aerothemeplasma, ... }:
+{ config, lib, pkgs, ... }:
 
 let
-	aero = pkgs.callPackage aerothemeplasma { };
+	aero = pkgs.callPackage ./assets/aerothemeplasma-nixos { };
 in
 {
 	services = {
@@ -15,6 +15,7 @@ in
 		pkgs.kdePackages.kcharselect
 		pkgs.kdePackages.kclock
 		pkgs.kdePackages.kcolorchooser
+		pkgs.kdePackages.kirigami
 		pkgs.kdePackages.kolourpaint
 		pkgs.kdePackages.ksystemlog
 		pkgs.kdePackages.sddm-kcm
@@ -27,19 +28,20 @@ in
 		pkgs.wl-clipboard
 
 		aero.aeroglassblur
-    	aero.aeroglide
-    	aero.decoration
-    	aero.kcmloader
-    	aero.login-sessions
-    	aero.smodglow
-    	aero.smodsnap-v2
-    	aero.startupfeedback
-    	aero.sevenstart
-    	aero.seventasks
-    	aero.systemtray
-    	aero.volume
-    	aero.notifications
-    	aero.extra
+    aero.aeroglide
+    aero.decoration
+		aero.desktopcontainment
+    aero.kcmloader
+    aero.login-sessions
+    aero.smodglow
+    aero.smodsnap-v2
+    aero.startupfeedback
+    aero.sevenstart
+    aero.seventasks
+    aero.systemtray
+    aero.volume
+    aero.notifications
+    aero.extra
 	];
 
 	xdg = {

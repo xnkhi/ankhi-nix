@@ -10,7 +10,6 @@
 	];
 
 	imports = [
-		<plasma-manager/modules>
 		./components/home-packages.nix
 		./components/home-services.nix
 		./components/home-desktop.nix

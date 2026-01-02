@@ -11,14 +11,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
 		};
-		aerothemeplasma = {
-			url = "github:Rotlug/aerothemeplasma-nixos";
-			inputs.nixpkgs.follows = "nixpkgs";
-			flake = false;
-		};
 	};
 
-	outputs = { self, nixpkgs, home-manager, plasma-manager, aerothemeplasma, ... }: {
+	outputs = { self, nixpkgs, home-manager, plasma-manager, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
@@ -35,9 +30,6 @@
 					};
 				}
 			];
-			specialArgs = {
-				inherit aerothemeplasma;
-			};
 		};
 	};
 }
