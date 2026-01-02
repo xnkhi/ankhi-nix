@@ -6,9 +6,13 @@
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
+		aerothemeplasma = {
+			url = "github:Rotlug/aerothemeplasma-nixos";
+			inputs.nixpkgs.follows = "nixpkgs";
+		};
 	};
 
-	outputs = { self, nixpkgs, home-manager, ... }: {
+	outputs = { self, nixpkgs, home-manager, aerothemeplasma, ... }: {
 		nixosConfigurations.notebook = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
 			modules = [
@@ -24,6 +28,9 @@
 					};
 				}
 			];
+			specialArgs = {
+				inherit aerothemeplasma;
+			};
 		};
 	};
 }
