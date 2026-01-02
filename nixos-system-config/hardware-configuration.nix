@@ -18,7 +18,6 @@
 
   hardware.graphics = {
     enable = true;
-    # enable32bit = true;
   };
 
   fileSystems."/" =
@@ -46,4 +45,12 @@
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+
+  environment.systemPackages = with pkgs; [
+    mesa
+    mesa-demos
+    vulkan-tools
+    libGL
+  ];
+
 }
